@@ -48,4 +48,12 @@ public class ExpenseService {
         expenserepository.delete(expense);
     }
 	
+    public Expense update(Long id,Expense newExpense,String username) {
+    	Expense existingExpense=getById(id,username);
+    	existingExpense.setDescription(newExpense.getDescription());
+    	existingExpense.setAmount(newExpense.getAmount());
+    	existingExpense.setDate(newExpense.getDate());
+    	return expenserepository.save(existingExpense);
+    }
+    
 }
