@@ -30,10 +30,22 @@ public class ExpenseService {
 			return expenserepository.findByUserId(user.getId());	
 	}
 	
-	public void delete(Long id, String username) {
-		Expense expense = getById(id, username); // includes ownership check
-		expenserepository.delete(expense);
-	}
 	
+
+    public Expense getById(Long id, String username) {
+        Expense expense = expenserepository.findById(id)
+            .orElseThrow(() -> new RuntimeException("Expense not found"));
+        
+        if (!expense.getUser().getUsername().equals(username)) {
+            throw new RuntimeException("Unauthorized access");
+        }
+
+        return expense;
+    }
+
+    public void delete(Long id, String username) {
+        Expense expense = getById(id, username);
+        expenserepository.delete(expense);
+    }
 	
 }
