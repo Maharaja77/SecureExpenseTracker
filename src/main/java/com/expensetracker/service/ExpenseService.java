@@ -1,4 +1,4 @@
-package com.expensetracker.Service;
+package com.expensetracker.service;
 
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;

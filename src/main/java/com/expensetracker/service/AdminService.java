@@ -1,4 +1,4 @@
-package com.expensetracker.Service;
+package com.expensetracker.service;
 import com.expensetracker.model.User;
 import com.expensetracker.model.Expense;
 import com.expensetracker.repository.ExpenseRepository;
