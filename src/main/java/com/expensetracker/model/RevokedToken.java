@@ -10,7 +10,7 @@ import java.util.Date;
 @Getter
 @Setter
 @NoArgsConstructor
-@AllArgsConstructor
+//@AllArgsConstructor
 public class RevokedToken {
     @Id
     private String token;
