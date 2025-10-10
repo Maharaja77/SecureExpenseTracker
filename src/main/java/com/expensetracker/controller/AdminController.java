@@ -17,15 +17,13 @@ public class AdminController {
     @Autowired
     private AdminService adminService;
 
-    // ✅ Get all users (for dropdown)
-    @PreAuthorize("hasRole('ADMIN')")
+    @PreAuthorize("hasAuthority('ROLE_ADMIN')")
     @GetMapping("/users")
     public List<User> getAllUsers() {
         return adminService.getAllUsers();
     }
 
-    // ✅ Get all expenses for a specific user
-    @PreAuthorize("hasRole('ADMIN')")
+    @PreAuthorize("hasAuthority('ROLE_ADMIN')")
     @GetMapping("/expenses")
     public List<Expense> getUserExpenses(@RequestParam Long userId) {
         return adminService.getUserExpenses(userId);
