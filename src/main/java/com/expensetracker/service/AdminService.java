@@ -20,8 +20,8 @@ public class AdminService {
 		return userrepository.findAll();
 		
 	}
-	 public List<Expense> getUserExpenses(Long userId) { // ✅ parameter name = userId
-	        return expenserepository.findByUserId(userId);  // ✅ use the same name
+	 public List<Expense> getUserExpenses(Long userId) { 
+	        return expenserepository.findByUserId(userId);  
 	    }
 	
 	
