@@ -36,7 +36,14 @@ Each user’s data is protected through **JWT tokens**, and **role-based access 
 | **Build Tool** | Maven              |
 
 ---
-
+📂 Project Structure
+SecureExpenseTracker/
+│
+├                # Spring Boot application
+│   ├── src/main/java/...   # Controllers, Services, Repositories
+│   ├── src/main/resources/ # Application properties
+│
+---
 ## ⚙️ Setup & Installation
 
 ### 1 Configure Database
