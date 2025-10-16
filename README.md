@@ -156,33 +156,11 @@ Your backend will run on:
 * **CORS Configuration** for cross-origin access from React frontend
 
 ---
-
-## 🧠 Future Enhancements
-
-* Expense category analytics
-* Export reports as PDF/Excel
-* Dark/Light theme for admin dashboard
-* Email verification for user registration
-
----
-
 ## 👨‍💻 Author
 
-**Maha Raja R**
+**Maharaja R**
 🎥 [YouTube – Tech For Tech World](https://www.youtube.com/@tech_for_tech_world)
 🌐 [Portfolio](https://maharaja77.github.io/maharaja/)
 
 ---
-
-## 🏁 License
-
-This backend is part of the **SecureExpenseTracker** project and is licensed under the **MIT License**.
-
----
-
-## ⭐ Support
-
-If you found this project helpful, please give it a ⭐ on [GitHub](https://github.com/your-username/SecureExpenseTracker)!
-And check out tutorials on
-🎥 [**Tech For Tech World**](https://www.youtube.com/@tech_for_tech_world) — for more coding & tech videos.
 
