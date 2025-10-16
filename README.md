@@ -165,9 +165,12 @@ Your backend will run on:
 ---
 ## 👨‍💻 Author
 
-**Maharaja R**
-🎥 [YouTube – Tech For Tech World](https://www.youtube.com/@tech_for_tech_world)
+**MAHARAJA R**
+📧 [mayamaharaja18@example.com](mailto:mayamaharaja18@example.com)
 🌐 [Portfolio](https://maharaja77.github.io/maharaja/)
+💼 [LinkedIn](https://www.linkedin.com/in/maharajaofficial)
+🌐 [YouTube Channel](https://www.youtube.com/@tech_for_tech_world)
 
+---
 ---
 
