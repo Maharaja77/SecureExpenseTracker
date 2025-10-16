@@ -119,7 +119,7 @@ Your backend will run on:
 </p>
 
 <p align="center">
-  <img src="./assets/postman_update_expense.png.png" alt="Add Expense API Test" width="700"/>
+  <img src="./assets/postman_update_expense.png" alt="Add Expense API Test" width="700"/>
 </p>
 
 <p align="center">
