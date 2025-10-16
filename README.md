@@ -98,15 +98,12 @@ Your backend will run on:
   <img src="./assets/Postman_register_user.png" alt="Register API Test" width="700"/>
 </p>
 
-### 🔑 Login and Register API
+### 🔑 Login  API
 
 <p align="center">
   <img src="./assets/postman_login_user.png" alt="Login API Test" width="700"/>
 </p>
 
-<p align="center">
-  <img src="./assets/Postman_register_user.png" alt="Login API Test" width="700"/>
-</p>
 
 ### 💰 Add & Get & Put & Delete Expense API
 
@@ -145,6 +142,9 @@ Your backend will run on:
 <p align="center">
   <img src="./assets/postman_admin_userexpese.png" alt="Login API Test" width="700"/>
 </p>
+
+<p align="center"><em>Postman tests showing successful responses for Admin authentication and UserList APIs.</em></p>
+
 ---
 
 
