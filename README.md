@@ -36,14 +36,21 @@ Each user’s data is protected through **JWT tokens**, and **role-based access 
 | **Build Tool** | Maven              |
 
 ---
-📂 Project Structure
+
+## 📂 Project Structure
+
+```
 SecureExpenseTracker/
 │
-├                # Spring Boot application
+├── backend/                # Spring Boot application
 │   ├── src/main/java/...   # Controllers, Services, Repositories
 │   ├── src/main/resources/ # Application properties
-│
+├── README.md               # Project Documentation
+└── ...
+```
+
 ---
+
 ## ⚙️ Setup & Installation
 
 ### 1 Configure Database
@@ -172,5 +179,3 @@ Your backend will run on:
 🌐 [YouTube Channel](https://www.youtube.com/@tech_for_tech_world)
 
 ---
----
-
